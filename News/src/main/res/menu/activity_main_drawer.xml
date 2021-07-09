@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="International News">
+            <menu>
+                <item
+                    android:id="@+id/nav_home"
+                    android:title="BBC"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/nav_gallery"
+                    android:title="CNN"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/nav_slideshow"
+                    android:title="Fox News"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/nav_sky"
+                    android:title="Sky News"
+                    android:menuCategory="secondary"/>
+            </menu>
+        </item>
+    </group>
+    <item android:title="National News"
+        android:menuCategory="secondary">
+        <menu>
+            <item
+                android:id="@+id/nav_zee"
+                android:title="ZEE News"
+                android:menuCategory="secondary"/>
+            <item
+                android:id="@+id/nav_news18"
+                android:title="News 18 India"
+                android:menuCategory="secondary"/>
+        </menu>
+
+    </item>
+    <item android:title="About Us"
+        android:menuCategory="secondary">
+        <menu>
+            <item
+                android:id="@+id/developer"
+                android:title="Developer Page"
+                android:menuCategory="secondary"/>
+        </menu>
+    </item>
+
+</menu>
